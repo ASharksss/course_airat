@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/course_airat/static/css/main.c7613efc.css",
+    "main.js": "/course_airat/static/js/main.3e0f103e.js",
+    "index.html": "/course_airat/index.html",
+    "main.c7613efc.css.map": "/course_airat/static/css/main.c7613efc.css.map",
+    "main.3e0f103e.js.map": "/course_airat/static/js/main.3e0f103e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7613efc.css",
+    "static/js/main.3e0f103e.js"
+  ]
+}
