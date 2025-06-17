@@ -1,0 +1,136 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.addButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.addButton:hover {
+    background-color: #45a049;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.sortOptions {
+    display: flex;
+    gap: 20px;
+}
+
+.sortOptions label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.sortButton, .clearButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sortButton {
+    background-color: #2196F3;
+    color: white;
+}
+
+.sortButton:hover {
+    background-color: #0b7dda;
+}
+
+.clearButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.clearButton:hover {
+    background-color: #da190b;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.listContainer {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.listContainer h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.listContainer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listContainer li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.listContainer li:last-child {
+    border-bottom: none;
+}
+
+.empty {
+    color: #888;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .lists {
+        flex-direction: column;
+    }
+}
